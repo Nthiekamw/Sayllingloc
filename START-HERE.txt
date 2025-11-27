@@ -1,0 +1,71 @@
+╔══════════════════════════════════════════════════════════════╗
+║                    🚢 SAILINGLOC                             ║
+║              Plateforme de Location de Bateaux               ║
+╚══════════════════════════════════════════════════════════════╝
+
+📋 3 ÉTAPES POUR DÉMARRER (5 minutes)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1️⃣  DÉSACTIVER LA CONFIRMATION D'EMAIL (OBLIGATOIRE)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Allez ici :
+👉 https://supabase.com/dashboard/project/moaijpthaoqjjpgtqoko/settings/auth
+
+Décochez "Enable email confirmations" et cliquez Save
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2️⃣  CRÉER L'UTILISATEUR ADMIN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Allez ici :
+👉 https://supabase.com/dashboard/project/moaijpthaoqjjpgtqoko/auth/users
+
+Cliquez "Add user" et remplissez :
+   - Email    : admin@sailingloc.com
+   - Password : admin123
+   - ✅ Cochez "Auto Confirm User"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+3️⃣  EXÉCUTER LE SCRIPT SQL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Allez ici :
+👉 https://supabase.com/dashboard/project/moaijpthaoqjjpgtqoko/sql/new
+
+Copiez TOUT le contenu du fichier : setup_complete.sql
+Cliquez "Run" (ou Ctrl+Enter)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎉 C'EST FAIT !
+
+Lancez l'application :
+$ npm run dev
+
+Connectez-vous avec :
+📧 Email    : admin@sailingloc.com
+🔒 Password : admin123
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 Pour plus d'infos, lisez :
+   - INSTALLATION-RAPIDE.md  ⚡ Guide 5 minutes
+   - LISEZ-MOI-EN-PREMIER.md 📖 Vue d'ensemble
+   - DEPLOY.md               🚀 Déployer sur Vercel
+   - README.md               📚 Documentation complète
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️  IMPORTANT : Si l'inscription ne fonctionne pas, c'est que
+    vous n'avez pas fait l'étape 1 (désactiver email confirm)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 Pour déployer sur Vercel :
+   Suivez le guide dans DEPLOY.md
+
+Bon vent ! ⛵
